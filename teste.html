@@ -6,8 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
-        Algo Incrivel
-    </p>
+    <p id="numeroA">2</p>
+    <p id="numeroB">4</p>
+    
+
+        <script>
+            let a=parseInt(document.getElementById("numeroA"));
+            let b=parseInt(document.getElementById("numeroB"));
+            console.log(a);
+            console.log(b);
+            console.log(a+b);
+            if((a+b) > 5){
+                document.write("Maior");
+            }
+            else{
+                document.write("menor");
+            }
+        </script>
 </body>
 </html>
